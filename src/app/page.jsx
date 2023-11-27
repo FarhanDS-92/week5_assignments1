@@ -6,6 +6,7 @@ import Divider from "@/Components/Divider.jsx"
 
 export default function Home() {
   const [alienDetails, setAlienDetails] = useState(aliens);
+  // test
 
   return (
     <main>
