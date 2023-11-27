@@ -1,5 +1,30 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .blueSquare {
   height: 100px;
   width: 100px;
   background-color: blue;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.alienCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px black solid;
+  width: 150px;
+  border-radius: 20px;
+  padding: 10px;
 }
